@@ -2,10 +2,13 @@
 ## IEM HACKS 2.0 HACKATHON
 
 
-Team Leader Name: **_Vaibhav Kundu_**
-Github username: [vaibhavkundu123](https://github.com/vaibhavkundu123)
+## Team Leader 
 
-Team Members:
+Name: **_Vaibhav Kundu_**
+
+  Github username: [vaibhavkundu123](https://github.com/vaibhavkundu123)
+
+## Team Members:
 1. Name: **_Ayan Mondal_**
    
    Github username: [trinetra110](https://github.com/trinetra110)
