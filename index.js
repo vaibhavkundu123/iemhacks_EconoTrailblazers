@@ -15,7 +15,7 @@ const questions = [
         optionA: "Local Standards only",
         optionB: "International Standards",
         optionC: "Local as well as International Accounting Standards",
-        optionD: "Company’s Internal Top Management only",
+        optionD: "Company's Internal Top Management only",
         correctOption: "optionC"
     },
 
@@ -29,7 +29,7 @@ const questions = [
     },
 
     {
-        question: "_________ are the basis of the business’s financial accounting.",
+        question: "_________ are the basis of the business's financial accounting.",
         optionA: "Accounting records",
         optionB: "Bookkeeping",
         optionC: "Sales Volume",
