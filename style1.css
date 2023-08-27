@@ -1,7 +1,6 @@
 body {
-
   background: #fff !important;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 a {
   text-decoration: none;
@@ -19,7 +18,6 @@ header nav {
   box-shadow: 0px 0px 5px #4444;
 }
 header nav a.navbar-brand h2 {
-
   color: var(--bs-orange);
 }
 header nav ul.action-menu .nav-item .nav-link {
@@ -27,34 +25,32 @@ header nav ul.action-menu .nav-item .nav-link {
   font-size: 18px;
 }
 .navbar-toggler {
-  outline: none!important;
-  outline-color: transparent!important;
-  padding: none!important;
-  border: none!important;
-  border-radius: none!important;
-  
+  outline: none !important;
+  outline-color: transparent !important;
+  padding: none !important;
+  border: none !important;
+  border-radius: none !important;
 }
 
-@media(max-width: 567px){
-  
+@media (max-width: 567px) {
 }
 /*****************************
     Login Form
 ******************************/
-.form-login{
-    bottom: 45%!important;
+.form-login {
+  bottom: 45% !important;
 }
 
 .carousel-item {
   width: 100%;
-  height: 100vh!important;
+  height: 100vh !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .carousel-item::before {
-  content: '';
+  content: "";
   background-color: rgba(12, 11, 10, 0.5);
   position: absolute;
   top: 0;
@@ -73,8 +69,6 @@ header nav ul.action-menu .nav-item .nav-link {
   right: 0;
 }
 
-
-
 .carousel-caption h5 {
   color: #fff;
   margin-bottom: 10px;
@@ -85,7 +79,6 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 .carousel-caption p {
-  
   font-size: 20px;
   width: 80%;
   -webkit-animation-delay: 0.4s;
@@ -93,26 +86,22 @@ header nav ul.action-menu .nav-item .nav-link {
   margin: 0px auto 30px auto;
 }
 
-
-@media(max-width:768px){
+@media (max-width: 768px) {
   .carousel-caption h5 {
     font-size: 38px;
   }
 }
-@media(max-width:577px){
+@media (max-width: 577px) {
   .carousel-caption h5 {
     font-size: 25px;
-    
   }
   .carousel-caption p {
     font-size: 13px;
   }
-  
 }
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-
 
 .about .content {
   padding: 0 80px;
@@ -182,7 +171,7 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 .about .play-btn::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -197,7 +186,7 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 .about .play-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 120px;
   height: 120px;
@@ -225,7 +214,7 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 .about .play-btn:hover::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -243,7 +232,8 @@ header nav ul.action-menu .nav-item .nav-link {
 }
 
 @media (max-width: 1024px) {
-  .about .content, .about .accordion-list {
+  .about .content,
+  .about .accordion-list {
     padding-left: 0;
     padding-right: 0;
   }
@@ -280,14 +270,12 @@ header nav ul.action-menu .nav-item .nav-link {
   }
 }
 
-
-
 .course .box {
   padding: 10px 10px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all ease-in-out 0.3s;
 }
-.course .box img{
+.course .box img {
   border-radius: 5px;
 }
 .course .box span {
