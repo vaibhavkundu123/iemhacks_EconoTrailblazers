@@ -32,4 +32,4 @@ click [Here](https://vaibhavkundu123.github.io/iemhacks_EconoTrailblazers/),our 
 ## Additional Files:
 
 1) [Video Explanation](https://drive.google.com/file/d/13XXP4cOVVly7HMeXtuEItDyXMziLyOHY/view?usp=sharing)
-2) [Powerpoint Presentation]()
+2) [Powerpoint Presentation](https://docs.google.com/presentation/d/1f_G3sl2KljCYNbtgLZcOiD2Fwp5dmKpE/edit?usp=sharing&ouid=115309746847652518713&rtpof=true&sd=true)
