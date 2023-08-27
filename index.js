@@ -47,12 +47,12 @@ const questions = [
     },
 
     {
-        question: "Which is not a limitation of financial accounting?",
-        optionA: "Inadequate information to fix up the price of products manufactured",
-        optionB: "Lack of data for comparison of cost of operation of the firm with other firms in the industry",
-        optionC: "The data available is historical in nature",
-        optionD: "Complies with the various legal requirements",
-        correctOption: "optionD"
+        question: "Which among the following includes all asset-based financial plans that are offered to customers to help acquire more durable consumer goods? ",
+        optionA: "Consumer credit",
+        optionB: "Cash Credit",
+        optionC: "Hire purchase",
+        optionD: "Trade credit",
+        correctOption: "optionA"
     },
 
     {
@@ -119,12 +119,12 @@ const questions = [
     },
 
     {
-        question: "Select the correct answer.",
-        optionA: "Financial accounting reports generally govern accepted accounting principles",
-        optionB: "Generally accepted accounting principles governing financial accounting reports",
-        optionC: "Generally accepted accounting principles does not governing financial accounting reports",
-        optionD: "There is no relation between Generally accepted accounting principles and financial accounting reports",
-        correctOption: "optionB"
+        question: "Which among the following is an inflation-free instrument?",
+        optionA: "Variable rate bond",
+        optionB: "Deep discount bond",
+        optionC: "Option bond",
+        optionD: "Index-linked gilt bond",
+        correctOption: "optionD"
     },
 
     {
