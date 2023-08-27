@@ -25,3 +25,11 @@ Name: **_Vaibhav Kundu_**
 <p><h3>
 In today's rapidly evolving financial landscape, individuals face a significant challenge in staying informed and confident about their financial decisions. Many lack the essential knowledge required to navigate the complexities of investments, markets, and personal finance effectively. This knowledge gap often leads to missed opportunities, uninformed decisions, and limited financial growth.
 </h3></p>
+
+## To view our website EconoGuide 
+click [Here](https://vaibhavkundu123.github.io/iemhacks_EconoTrailblazers/),our website is hosted using github pages
+
+## Additional Files:
+
+1) [Video Explanation]()
+2) [Powerpoint Presentation]()
