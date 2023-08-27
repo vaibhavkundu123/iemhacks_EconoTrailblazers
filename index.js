@@ -1,231 +1,275 @@
 //this would be the object shape for storing the questions  
  //you can change the questions to your own taste or even add more questions..
- const questions = [
+const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
+        question: "__________ is a specialised branch of accounting that keeps track of a company’s financial transactions.",
+        optionA: "Cost accounting",
+        optionB: "Management accounting",
+        optionC: "Financial Accounting",
+        optionD: "Corporate accounting",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Financial accountancy is governed by ___________",
+        optionA: "Local Standards only",
+        optionB: "International Standards",
+        optionC: "Local as well as International Accounting Standards",
+        optionD: "Company’s Internal Top Management only",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "_____ is the scope of financial accounting.",
+        optionA: "Collection and processing of data",
+        optionB: "Verifying or auditing data",
+        optionC: "Publishing data",
+        optionD: "All of the above",
         correctOption: "optionD"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "_________ are the basis of the business’s financial accounting.",
+        optionA: "Accounting records",
+        optionB: "Bookkeeping",
+        optionC: "Sales Volume",
+        optionD: "Both A & B",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Which is not a benefit of financial accounting?",
+        optionA: "Maintaining systematic records",
+        optionB: "Protecting and safeguarding business assets",
+        optionC: "Historical in nature",
+        optionD: "Facilitates rational decision making",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Which is not a limitation of financial accounting?",
+        optionA: "Inadequate information to fix up the price of products manufactured",
+        optionB: "Lack of data for comparison of cost of operation of the firm with other firms in the industry",
+        optionC: "The data available is historical in nature",
+        optionD: "Complies with the various legal requirements",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "The overriding purpose of financial accounting is to summarize financial activity in business in the ______",
+        optionA: "Profit and Loss Statement",
+        optionB: "Balance Sheet",
+        optionC: "Cash Flow Statement",
+        optionD: "All of the above",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Financial accounting provides accounting information to the ________ though the information is useful for internal purposes also.",
+        optionA: "External users",
+        optionB: "Internal users",
+        optionC: "Company",
+        optionD: "Competitors",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Financial accounting reports to the ________ after the completion of the accounting year.",
+        optionA: "Internal management",
+        optionB: "External parties",
+        optionC: "Media",
+        optionD: "Rivals",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "Financial accounting reports include _____",
+        optionA: "Profit and Loss Account",
+        optionB: "Directors Report",
+        optionC: "Balance Sheet and Auditors Report",
+        optionD: "All of the above",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
+        question: "Financial accounting cover overall performance of the _______",
+        optionA: "Competitors",
+        optionB: "Market",
+        optionC: "Company",
+        optionD: "Finance department",
         correctOption: "optionC"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
+        question: "Financial accounting reports lay greater emphasis on the _______",
+        optionA: "Objectivity of data",
+        optionB: "Flexibility of data",
+        optionC: "Relevancy of data",
+        optionD: "Subjectivity of data",
         correctOption: "optionA"
     },
 
     {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
-        correctOption: "optionD"
-    },
-
-    {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
-        correctOption: "optionA"
-    },
-
-
-    {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
+        question: "Presentation of of financial accounting reports is mandatory under the provisions of of section 209 (1), 210 (1) and 216, 217 of __________",
+        optionA: "The Business Act 1956",
+        optionB: "The Companies Act 1956",
+        optionC: "The Company Act 1965",
+        optionD: "The Company 2016",
         correctOption: "optionB"
     },
 
     {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
+        question: "Select the correct answer.",
+        optionA: "Financial accounting reports generally govern accepted accounting principles",
+        optionB: "Generally accepted accounting principles governing financial accounting reports",
+        optionC: "Generally accepted accounting principles does not governing financial accounting reports",
+        optionD: "There is no relation between Generally accepted accounting principles and financial accounting reports",
         correctOption: "optionB"
     },
 
     {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
+        question: "Financial accounting statements are subject to ______",
+        optionA: "Cost audit",
+        optionB: "Forensic audit",
+        optionC: "Statutory audit",
+        optionD: "Non statutory audit",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "The annual reports are to be prepared and published for circulation among the external end users such as __________",
+        optionA: "Company, competitors, contributors and colleagues",
+        optionB: "Company, competitors, contributors and colleagues",
+        optionC: "Government, competitors, owners and top management",
+        optionD: "Shareholders, Investors, Bankers, Debenture holders and Creditors",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "____________ is a structured representation of the financial performance and financial position of a business and changes over a period of time.",
+        optionA: "Profit and loss account",
+        optionB: "Financial statement",
+        optionC: "Balance sheet",
+        optionD: "Internal audit",
         correctOption: "optionB"
     },
 
     {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
+        question: "________ are the components of financial statements.",
+        optionA: "Profit and Loss account and Balance sheet",
+        optionB: "Cash flow and Fund flow statement",
+        optionC: "Notes and Schedules",
+        optionD: "All of the above",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "_______ explain the financial position of the reporting entity at the end of the accounting period.",
+        optionA: "Balance sheet",
+        optionB: "Income statement",
+        optionC: "Ledger",
+        optionD: "Notes & schedules",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "_______ helps to find out the profit made on loss sustained in a particular accounting period through transactions and events.",
+        optionA: "Income statement",
+        optionB: "Profit and loss account",
+        optionC: "Trading account",
+        optionD: "None of the above",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "______ is not a primary source of long-term debt financing.",
+        optionA: "Accounts payable",
+        optionB: "Notes payable",
+        optionC: "Leases",
+        optionD: "Bonds",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Cash flow is also known as _____",
+        optionA: "Balance sheet flow",
+        optionB: "Profit and loss account",
+        optionC: "Fund flow statement",
+        optionD: "Notes and schedules",
         correctOption: "optionC"
     },
 
     {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
+        question: "______ is used to analyse the pattern of movement or activity during the period to identify the way the enterprise has generated cash and the way they have been used in an accounting period.",
+        optionA: "Balance sheet",
+        optionB: "Cash flow",
+        optionC: "Profit & Loss account",
+        optionD: "Income statement",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Notes and schedules is used to present supplementary information explaining different items of financial statements.",
+        optionA: "Balance sheet flow",
+        optionB: "Profit and loss account",
+        optionC: "Fund flow statement",
+        optionD: "Notes and schedules",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "______ is a written evidence in support of a business transaction.",
+        optionA: "Ledger",
+        optionB: "Voucher",
+        optionC: "Ledger Posting",
+        optionD: "Journal",
+        correctOption: "optionB"
+    },
+
+    {
+        question: "Notes and schedules include disclosures about the risk and uncertainties affecting the enterprise and such items as disclosure of _______",
+        optionA: "Accounting Policies Segment reports",
+        optionB: "Report of operations in the process of discontinuation",
+        optionC: "Both A & B",
+        optionD: "None of the above",
         correctOption: "optionC"
-    }
+    },
+
+    {
+        question: "Trademark, Copyrights & Patents are _____ assets.",
+        optionA: "Intangible",
+        optionB: "Fixed",
+        optionC: "Current",
+        optionD: "Tangible",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Capital increases if ______",
+        optionA: "Cost increases",
+        optionB: "Expenses increases",
+        optionC: "Revenue increases",
+        optionD: "Interest on capital increases",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Current assets minus current liabilities is equal to ______",
+        optionA: "Losing Capital",
+        optionB: "Gaining Capital",
+        optionC: "Fixed Capital",
+        optionD: "Working Capital",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "A _______ can also be referred to as a tangible asset.",
+        optionA: "Liquid Asset",
+        optionB: "Fixed Asset",
+        optionC: "Current Asset",
+        optionD: "Other Asset",
+        correctOption: "optionB"
+    },
 
 ]
 
