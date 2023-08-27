@@ -31,5 +31,5 @@ click [Here](https://vaibhavkundu123.github.io/iemhacks_EconoTrailblazers/),our 
 
 ## Additional Files:
 
-1) [Video Explanation]()
+1) [Video Explanation](https://drive.google.com/file/d/13XXP4cOVVly7HMeXtuEItDyXMziLyOHY/view?usp=sharing)
 2) [Powerpoint Presentation]()
