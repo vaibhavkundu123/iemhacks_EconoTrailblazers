@@ -11,6 +11,7 @@ body {
 }
 
 .container {
+  padding-top: 50px;
   position: relative;
   top: 50%;
   left: 50%;
